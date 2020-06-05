@@ -1,0 +1,13 @@
+.layNav {
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (max-width: 575.98px) {
+    .layNav{
+        h4{
+            color:#fff;
+        }
+    }
+}
+

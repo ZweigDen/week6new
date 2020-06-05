@@ -1,0 +1,15 @@
+/*提交email背景圖*/
+.bg2{
+    height: 400px;
+    background-image: url("../../images/footer.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (max-width: 575.98px){
+    .bg2{
+        h1{
+            font-size: 32px;
+        }
+    }
+}

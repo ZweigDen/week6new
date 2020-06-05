@@ -1,0 +1,66 @@
+/*開頭*/
+.topHeader{
+    height: 800px;
+    position: relative;
+    h4{
+        opacity:0.5;
+    }
+}
+/*背景圖右半邊*/
+.topHeader::after{
+    content: "";
+    position: absolute;
+    background-image: url("../../images/index-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+}
+
+
+/*手機-讓背景滿版*/
+@media (max-width: 575.98px) {
+    .topHeader{
+        height: 640px;
+        h1{
+            color:#fff;
+        }
+        h4{
+            color:#fff;
+            font-size: 16px;
+            opacity: 0.5;
+        }
+        div{
+            text-align: center;
+        }
+        
+    }
+    .topHeader::after{
+        width: 100%;
+        left:0;
+    }
+    
+}
+
+/*bg背景圖*/
+.bg{
+    background-image: url("../../images/index-5.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+    p{
+        opacity: 0.5;
+    }
+}
+.myAuto{
+    height: 400px;
+}
+
+/*跑馬燈*/
+.w-33{
+    max-width: 33%;
+}
+

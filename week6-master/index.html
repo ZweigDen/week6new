@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/style/css/all.css">
+    <title>第六週</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/all.js"></script>
+</head>
+
+<body>
+    <!-- nav -->
+    <section class="py-4 position-absolute layNav">
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="position-relative">
+                <!-- 漢堡選單收合 手機顯示 -->
+                <a class="text-light d-sm-none" href="#">
+                    <h4><i class="fas fa-bars"></i></h4>
+                </a>
+                <!-- 漢堡選單 -->
+            </div>
+            <a class="navbar-brand font-italic mr-0" href="#">
+                <h4>Craftsman</h4>
+            </a>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Product</a>
+                    </li>
+                    <li class="nav-item ml-6">
+                        <a class="nav-link text-light" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item ml-6">
+                        <a class="nav-link text-light" href="#">content</a>
+                    </li>
+                    <li class="nav-item ml-6">
+                        <a class="nav-link text-light" href="#"><i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="d-sm-none">
+                <h4><i class="fas fa-shopping-cart text-light hiddenMenu "></i></h4>
+            </a>
+        </nav>
+    </section>
+
+    <!-- shopNow -->
+    <section class="d-flex flex-column justify-content-center mb-7 topHeader">
+        <div class="container">
+            <div class="row flex-column">
+                <div class="col col-sm-5 mb-4">
+                    <h1>Enjoy Your Minimalist Lifestyle.</h1>
+                </div>
+                <div class="col col-sm-5 mb-6">
+                    <h4>The best crafts in Taiwan. Get your free shipping on the first order.</h4>
+                </div>
+                <div class="col col-sm-2">
+                    <button type="button" class="btn btn-success2 px-0 py-3 btn-block">Shop now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 內容1 -->
+    <section>
+        <div class="container mb-4">
+            <div class="row d-sm-flex">
+                <div class="col-sm-6 mb-3">
+                    <img src="assets/images/index-2.jpg" alt="">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 d-flex flex-column justify-content-center">
+                    <h4 class="mb-3">Special Clays</h4>
+                    <p class="mb-4">A general body formulation for contemporary earthenware is 25% kaolin, 25%
+                        ball
+                        clay, 35% quartz
+                        and 15% feldspar.</p>
+                    <a href="#" class="colorGreen">learn more</a>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+        <div class="container mb-4">
+            <div class="row d-sm-flex">
+                <div class="col-sm-6 order-sm-1 mb-3">
+                    <img src="assets/images/index-3.jpg" alt="">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 d-flex flex-column justify-content-center">
+                    <h4 class="mb-3">Less is more</h4>
+                    <p class="mb-4">Trimming pottery can transform a weighty Earth-bound pot into one that is a pleasure
+                        to
+                        hold, look at, and use.</p>
+                    <a href="#" class="colorGreen">learn more</a>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+        <div class="container mb-4">
+            <div class="row d-sm-flex">
+                <div class="col-sm-6 mb-3">
+                    <img src="assets/images/index-4.jpg" alt="">
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-4 d-flex flex-column justify-content-center">
+                    <h4 class="mb-3">Marvelous Detail</h4>
+                    <p class="mb-4">In Craftsman, the art director, working with marketers, develops or creates an idea
+                        of a new
+                        creation.</p>
+                    <a href="#" class="colorGreen">learn more</a>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IG & twitter -->
+    <section class="bg mb-sm-7 mb-5">
+        <div class="container">
+            <div class="row flex-column flex-sm-row align-items-sm-center myAuto">
+                <div class="col-sm-4 text-white">
+                    <h2>“I want to make the life more simple by crafts.”</h2>
+                </div>
+                <div class="col"></div>
+                <div class="col-sm-3">
+                    <p class="text-white">Art Director</p>
+                    <h4 class="text-white">hsiao-Ming Chen</h4>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#" class="link-success2">Instagram</a></li>
+                        <li><a href="#" class="link-success2 ml-4">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 跑馬燈 -->
+    <section class="container mb-sm-7 mb-5">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="assets/images/img-1.jpg" class="d-inline w-33" alt="...">
+                    <img src="assets/images/img-2.jpg" class="d-inline w-33" alt="...">
+                    <img src="assets/images/img-3.jpg" class="d-inline w-33" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/img-4.jpg" class="d-inline w-33" alt="...">
+                    <img src="assets/images/img-5.jpg" class="d-inline w-33" alt="...">
+                    <img src="assets/images/img-6.jpg" class="d-inline w-33" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/images/img-7.jpg" class="d-inline w-33" alt="...">
+                    <img src="assets/images/img-8.jpg" class="d-inline w-33" alt="...">
+                    <img src="assets/images/img-9.jpg" class="d-inline w-33" alt="...">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- layout footer -->
+    <!-- email sub -->
+    <section class="bg2 d-flex align-items-center">
+        <div class="container ">
+            <div class="row flex-column">
+                <div class="col-sm-5 col-12 mb-5">
+                    <h1 class="text-white">Subscribe for news and special offers!</h1>
+                </div>
+                <div class="col"></div>
+                <div class="col-sm-5">
+                    <form class="form-inline">
+                        <div class="form-group mx-0 mb-0">
+
+                            <input type="email" class="form-control" placeholder="Your email address">
+                        </div>
+                        <button type="submit" class="btn btn-success2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- footer -->
+    <section class="bg-dark py-5">
+        <div class="container d-sm-flex justify-content-start">
+            <h4 class="text-white font-italic mb-6 mb-sm-0 mr-3">Craftsman</h4>
+
+            <ul class="list-unstyled text-white d-sm-flex flex-sm-row order-sm-1">
+                <li class="mb-3 mb-sm-0">Purchase Policy</li>
+                <li class="mb-3 mb-sm-0 ml-sm-6">Privacy Policy</li>
+                <li class="ml-sm-6 mb-6 mb-sm-0">Terms & Conditions</li>
+            </ul>
+            <span class="text-white mr-auto">© 2020. All Rights Reserved.</span>
+        </div>
+    </section>
+</body>
+
+</html>
