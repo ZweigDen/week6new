@@ -12159,11 +12159,6 @@ img {
   height: 400px;
 }
 
-/*跑馬燈*/
-.w-33 {
-  max-width: 33%;
-}
-
 /*製作瀑布排版*/
 .small img {
   min-height: 240px;
